@@ -32,6 +32,12 @@
     box-sizing: border-box;
 }
 
+
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
+
 html{
     overflow-x: hidden;
     margin: 0;
