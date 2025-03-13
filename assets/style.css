@@ -15,12 +15,15 @@
     --body-font: "Poppins", sans-serif;
     --h2-font-size: 1.25rem;
     --small-font-size: .813rem;
+    overflow-x: hidden;
+    box-sizing: border-box;
   }
   /*========== Responsive typography ==========*/
 @media screen and (min-width: 1120px) {
     :root {
       --h2-font-size: 1.5rem;
       --small-font-size: .875rem;
+        overflow-x: hidden;
     }
   }
 
