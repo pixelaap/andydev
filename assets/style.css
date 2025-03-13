@@ -17,7 +17,6 @@
     --small-font-size: .813rem;
     overflow-x: hidden;
     box-sizing: border-box;
-    overflow: hidden;
   }
   /*========== Responsive typography ==========*/
 @media screen and (min-width: 1120px) {
