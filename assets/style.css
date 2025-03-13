@@ -15,7 +15,6 @@
     --body-font: "Poppins", sans-serif;
     --h2-font-size: 1.25rem;
     --small-font-size: .813rem;
-    overflow-x: hidden;
     box-sizing: border-box;
   }
   /*========== Responsive typography ==========*/
@@ -23,7 +22,6 @@
     :root {
       --h2-font-size: 1.5rem;
       --small-font-size: .875rem;
-        overflow-x: hidden;
     }
   }
 
@@ -36,15 +34,18 @@
 
 html{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 
 
 body{
-    width: 100%;
-    height: 100vh;
-    background: #DEE0FF;
-    background: linear-gradient(270deg, #DEE0FF, #FFB9D1);
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: #DEE0FF;
+  background: linear-gradient(270deg, #DEE0FF, #FFB9D1);
 }
 
 nav{
@@ -563,48 +564,98 @@ color: #0083c4;
 
 
 /* media queris*/
-@media (max-width:884px) {
-    body{
-        overflow-y: visible;
-    }
 
-    nav .logo{
-        position: absolute;
-        top: 16px;
-        left: 15px;
-        font-size: 1.5rem;
-    }
+@media screen and (max-width: 1080px) {
+  body{
+      overflow-y: visible;
+  }
 
-    .main-container{
-        display: flex;
-        flex-direction: column;
-    }
+  nav .logo{
+      position: absolute;
+      top: 16px;
+      left: 15px;
+      font-size: 1.5rem;
+  }
 
-    .nav-container .links{
-        display: none;
-    }
+  .main-container{
+      display: flex;
+      flex-direction: column;
+  }
+  .container-title-projects {
+    font-size: 46px;
+  }
 
-    .hamburg,.cancel{
-        display: block;
-    }
+  .nav-container .links{
+      display: none;
+  }
 
-    .main-container .content{
-        width: 80%;
-    }
+  .hamburg,.cancel{
+      display: block;
+  }
 
-    .social-links i{
-        width: 2.5rem;
-        height: 2.5rem;
-        font-size: 1.5rem;
-    }
-    .cancel{
-        color: white;
-    }
+  .main-container .content{
+      width: 80%;
+  }
 
-    .main-container .image{
-        width: 80%;
-        margin-bottom: 0px;
-    }
+  .social-links i{
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.5rem;
+  }
+  .cancel{
+      color: #c19ef7;
+  }
+
+  .main-container .image{
+      width: 80%;
+      margin-bottom: 0px;
+  }
 }
 
 
+@media screen and (max-width: 768px) {
+body{
+  overflow-y: visible;
+}
+
+nav .logo{
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  font-size: 1.5rem;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+.container-title-projects {
+  font-size: 40px;
+}
+
+.nav-container .links{
+  display: none;
+}
+
+.hamburg,.cancel{
+  display: block;
+}
+
+.main-container .content{
+  width: 80%;
+}
+
+.social-links i{
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+.cancel{
+  color: #c19ef7;
+}
+
+.main-container .image{
+  width: 80%;
+  margin-bottom: 0px;
+}
+}
