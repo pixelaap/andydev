@@ -1,5 +1,5 @@
 /* GENERAL */
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Patua+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -79,10 +79,11 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-family: "Krona One", sans-serif;
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 /* HAMBURGER MENU */
@@ -283,6 +284,7 @@ section {
 
 .btn-color-1:hover {
   scale: 1.1;
+  box-shadow: 5px 5px 5px #747474;
 }
 
 .btn-color-2 {
@@ -291,6 +293,7 @@ section {
 
 .btn-color-2:hover {
   border: none;
+  box-shadow: 5px 5px 5px #747474;
 }
 
 .btn-container {
@@ -346,6 +349,7 @@ section {
 .details-container:hover {
   transform: scale(1.1);
   transition: 0.5s;
+  box-shadow: 5px 5px 5px #747474;
 }
 
 .section-container {
