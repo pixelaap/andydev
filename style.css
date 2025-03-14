@@ -227,9 +227,14 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   color: #0083c4;
+  font-family: "Krona One", sans-serif;
+}
+.title__personal {
+  font-size: 4.2rem;
+  font-family: "Krona One", sans-serif;
 }
 
 #socials-container {
@@ -244,6 +249,13 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+.icon__hover {
+  cursor: pointer;
+}
+.icon__hover:hover {
+  scale: 1.1;
+  transition: 0.5s;
 }
 
 /* BUTTONS */
